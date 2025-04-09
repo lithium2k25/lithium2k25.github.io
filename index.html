@@ -225,9 +225,13 @@
       border-radius: 4px;
       transition: all 0.3s ease;
     }
-    #insta img{
+    .social img{
       border-radius: 50%;
       border: 1px solid black;
+    }
+    .video-size {
+      width: 30rem;
+      height: 22rem;
     }
 
     @media (max-width: 768px) {
@@ -256,6 +260,7 @@
     <a href="#about">About</a>
     <a href="#schedule">Events</a>
     <a href="#gallery">Gallery</a>
+    <a href="#Message">Message</a>
     <a href="#contact">Contact</a>
   </nav>
   <section class="hero">
@@ -311,11 +316,27 @@
       
     
   </section>
+  <section id="Message" class="section">
+    <h3>Gallery</h3>
+    <div class="grid">
+      <div class="card">
+        <video class="video-size" src="video1.mp4" controls>
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="card">
+        <video class="video-size" src="video2.mp4" controls>
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+  
   <section id="contact" class="section">
     <h3>Social Media</h3>
     <div class="card">
-      <span id="insta"><a href="https://www.instagram.com/bit_lithium2k25"><img src="insta.png" width="30px" height="30px"></a></span></span>
-      <span id="insta"><a href="https://www.facebook.com/share/168qwXXAoE/"><img src="fb.webp" width="30px" height="30px"></a></span></span>
+      <span class="social"><a href="https://www.instagram.com/bit_lithium2k25"><img src="insta.png" width="30px" height="30px"></a></span></span>
+      <span class="social"><a href="https://www.facebook.com/share/168qwXXAoE/"><img src="fb.webp" width="30px" height="30px"></a></span></span>
     </div>
   </section>
   <footer>
